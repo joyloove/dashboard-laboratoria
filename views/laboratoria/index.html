@@ -14,8 +14,8 @@
   <div id="sidebar-nav">
     <ul>
       <li><a href="C:\Users\Joy Love\Documents\laboratoria\sprint2\data-dashboard\index.html"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-      <li><a href="#"><i class="fa fa-desktop"></i> Laboratoria</a></li>
-      <li class="active"><a><i class="fa fa-address-card-o" aria-hidden="true"></i> Estudiantes</a></li>
+      <li class="active"><a href="#"><i class="fa fa-desktop"></i> Laboratoria</a></li>
+      <li><a href="C:\Users\Joy Love\Documents\laboratoria\sprint2\data-dashboard\views\students\index.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Estudiantes</a></li>
       <li><a href="#"><i class="fa fa-pencil-square-o"></i> Staff</a></li>
       <li><a href="#"><i class="fa fa-check-square" aria-hidden="true"></i></i> Calificaciones</a></li>
       <li><a href="#"><i class="fa fa-line-chart"></i> Reporte</a></li>
@@ -57,60 +57,51 @@
       </div>
     </div>
   </div>
+
   <div class="content">
     <div class="content-header">
-      <h1>Estudiantes</h1>
-      <p>Datos de Estudiantes.</p>
+      <h1>Laboratoria</h1>
+      <p>Pendientes de hoy.</p>
     </div>
-    <select class="students-data" name="Selecciona una opción">
 
-    </select>
-    <div class="profile-student">
-      <div class="image-student">
-        <h2>Nombre de estudiante</h2>
-        <p>Especialización</p>
-        <div class="average-tech">
-          <h2>Average</h2>
-          <p>tech</p>
-        <div class="average-hse">
-          <h2>Average</h2>
-          <p>HSE</p>
-        <div class="inglish">
-          <h2>Level</h2>
-          <p>idioma</p>
-        </div>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div class="widget-box sample-widget">
-      <div class="widget-header">
-        <h2>Promedio de calificaciones</h2>
-        <i class="fa fa-cog"></i>
-      </div>
-      <div class="widget-content">
-        <canvas id="lineChart"></canvas>
-      </div>
-    </div>
-    <div class="widget-box sample-widget">
-      <div class="widget-header">
-        <h2>Promedio técnico</h2>
-        <i class="fa fa-cog"></i>
-      </div>
-   <div class="widget-content">
-        <canvas id="myBars"></canvas>
-      </div>
-      </div>
-  <div class="widget-box sample-widget">
-      <div class="widget-header">
-        <h2>Promedio HSE</h2>
-        <i class="fa fa-cog"></i>
-      </div>
-      <div class="widget-content">
-        <canvas id="myChart"></canvas>
-      </div>
-    </div>
-  </div>
+    <div class="cnt-blk main-width">
+      <div class="had ful">TO DO LIST</div>
+    		<div class="ful distb">
+    			<div class="txt-cnt tabs home unslct">Laboratoria</div>
+    			<div class="txt-cnt tabs office unslct">Personales</div>
+    		</div>
+    		<div class="ful tab-wrp">
+    			<div class="wrp-main ful">
+    				<form>
+    					<div class="ful task ">
+    						<input type="checkbox" name="task1" id="task1">
+    						<div class="sqr left txt-cnt"></div>
+    						<div class="time safe right txt-cnt red">30Min Left</div>
+    						<label for="task1">Hangout con Lima</label>
+    					</div>
+    					<div class="ful task">
+    						<input type="checkbox" name="task2" id="task2">
+    						<div class="sqr left txt-cnt"></div>
+    						<div class="time safe right txt-cnt pink">2Hr Left</div>
+    						<label for="task2">Aviso a las chicas</label>
+    					</div>
+    					<div class="ful task">
+    						<input type="checkbox" name="task3" id="task3">
+    						<div class="sqr left txt-cnt"></div>
+    						<div class="time safe right txt-cnt pink">3Hr Left</div>
+    						<label for="task3">Revisar promedios técnicos</label>
+    					</div>
+    					<div class="ful task none">
+    						<input type="checkbox" name="task4" id="task4">
+    						<div class="sqr left txt-cnt"></div>
+    						<div class="time safe right txt-cnt">7Hr Left</div>
+    						<label for="task4">Feedback con el equipo</label>
+    					</div>
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+
 </section>
 		<!-- Base de datos -->
 		<script src="js/data.js"></script>
