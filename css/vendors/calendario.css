@@ -34,7 +34,7 @@
    max-width: 210px;
    padding: 10px;
    min-height: 44px;
-   background: #ffae27;
+   background: #545454;
    width: 100%;
    max-height: 44px;
  }
@@ -46,7 +46,7 @@
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
-   background: #ffae27;
+   background: #545454;
  }
  .menu-button {
    float: left;
@@ -123,7 +123,7 @@
    border-right: 1px solid #ccc;
  }
  .nav-profile {
-   background: #e0ba33;
+   background: #bababa;
  }
  .nav-profile-image img {
    background-color: white;
@@ -192,15 +192,15 @@
    color: #333;
  }
  #sidebar-nav ul li:hover a {
-   background: #fff;
+   background: #ffba00;
    color: #333;
  }
  #sidebar-nav ul li.active a {
-   background: #fff;
+   background: #ffba00;
    color: #333;
  }
  #sidebar-nav ul li.active a i {
-   background: #fff;
+   background: #ffba00;
  }
  #sidebar-nav i {
    padding-right: 8px;
@@ -257,28 +257,28 @@
    margin: 0;
    padding-left: 2px;
  }
- .widget-box {
-   background: #fff;
-   border: 1px solid #E0E0E0;
-   float: left;
-   width: 100%;
-   margin: 0 0 15px 15px;
- }
- .widget-header {
-   background: #555555;
- }
- .widget-header h2 {
-   font-size: 15px;
-   font-weight: normal;
-   margin: 0;
-   padding: 11px 15px;
-   color: #ffffff;
-   display: inline-block;
- }
- .sample-widget {max-width: 47%;}
- .widget-box .fa-cog {
-   float: right;
-   color: #fff;
-   margin: 11px 11px 0 0;
-   font-size: 20px;
- }
+/*Calendario*/
+.calendar-nav{
+  display: inline;
+}
+
+.calendar__banner--month{
+  text-align: center;
+}
+.month{
+  width: 350px;
+  display: inline-block;
+}
+
+.table{
+  height: 50vh;
+  text-align: center;
+}
+
+.current{
+  background-color: #404347;
+}
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 30px; }
+}

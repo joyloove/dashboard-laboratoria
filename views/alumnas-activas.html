@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alumnas activas</title>
+    <link rel="stylesheet" href="../css/vendors/alumnas-activas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon/favicon-32x32.png">
+  </head>
+  <body>
+    <section id="sidebar">
+  <div class="white-label">
+  </div>
+  <div id="sidebar-nav">
+    <ul>
+      <li class="active"><a href="views/alumnas-activas/alumnas-activas.html"><i class="fa fa-user-circle"></i>Alumnas Activas</a></li>
+      <li><a href="reporte.html"><i class="fa fa-area-chart"></i>Reporte</a></li>
+      <li><a href="pendientes.html"><i class="fa fa-list-ol"></i>Pendientes</a></li>
+      <li><a href="estudiantes.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Estudiantes</a></li>
+      <li><a href="staff.html"><i class="fa fa-pencil-square-o"></i> Staff</a></li>
+      <li><a href="jedi.html"><i class="fa fa-users"></i> Profesores/Jedis</a></li>
+      <li><a href="calendario.html"><i class="fa fa-calendar"></i>Actividades</a></li>
+    </ul>
+  </div>
+</section>
+<section id="content">
+  <div id="header">
+    <div class="header-nav">
+      <div class="menu-button">
+        <!--<i class="fa fa-navicon"></i>-->
+      </div>
+      <div class="nav">
+        <ul>
+          <li class="nav-settings">
+            <div class="font-icon"><i class="fa fa-tasks"></i></div>
+          </li>
+          <li class="nav-mail">
+            <div class="font-icon"><i class="fa fa-envelope-o"></i></div>
+          </li>
+          <li class="nav-calendar">
+            <div class="font-icon"><i class="fa fa-calendar"></i></div>
+          </li>
+          <li class="nav-chat">
+            <div class="font-icon"><i class="fa fa-comments-o"></i></div>
+          </li>
+          <li class="nav-profile">
+            <div class="nav-profile-image">
+              <img src="../assets/images/avatar.png" alt="avatar-img" alt="profile image">
+              <div class="nav-profile-name">Amalia<i class="fa fa-caret-down"></i></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content-header">
+      <h1>Los números de hoy</h1>
+      <p>Alumnas Instritas</p>
+    </div>
+    <p>Selecciona una opción</p>
+    <select id="filtro" class="students-data" onchange="seleccionarOpcion(event)">
+      <option>Selecciona una opción</option>
+      <option value="arequipa5" data-sede="AQP" data-generacion="2017-1">Arequipa. Quinta generación</option>
+      <option value="arequipa5" data-sede="AQP" data-generacion="2016-2">Arequipa. Cuarta generación</option>
+      <option value="cdmx5" data-sede="CDMX" data-generacion="2017-1">CDMX. Quinta generación</option>
+      <option value="cdmx4" data-sede="CDMX" data-generacion="2017-2">CDMX. Cuarta generación</option>
+      <option value="lima5" data-sede="LIM" data-generacion="2016-2">Lima. Quinta generación</option>
+      <option value="lima4" data-sede="LIM" data-generacion="2017-1">Lima. Cuarta generación</option>
+      <option value="lima3" data-sede="LIM" data-generacion="2017-2">Lima. Tercera generación</option>
+      <option value="chile5" data-sede="SCL" data-generacion="2016-2">Chile. Quinta generación</option>
+      <option value="chile4" data-sede="SCL" data-generacion="2017-1">Chile. Cuarta generación</option>
+      <option value="chile3" data-sede="SCL" data-generacion="2017-2">Chile. Tercera generación</option>
+    </select>
+
+    <section id="data_student">
+
+
+    </section>
+    <script type="text/javascript" src="../js/data.js">
+    </script>
+    <script type="text/javascript" src="../js/vendors/alumnas-activas.js"></script>
+
+  </body>
+</html>

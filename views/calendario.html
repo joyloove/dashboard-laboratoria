@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividades</title>
+    <link rel="stylesheet" href="../css/vendors/calendario.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+  </head>
+  <body>
+    <section id="sidebar">
+  <div class="white-label">
+  </div>
+  <div id="sidebar-nav">
+    <ul>
+      <li><a href="alumnas-activas.html"><i class="fa fa-user-circle"></i>Alumnas Activas</a></li>
+      <li><a href="reporte.html"><i class="fa fa-area-chart"></i>Reporte</a></li>
+      <li><a href="pendientes.html"><i class="fa fa-list-ol"></i>Pendientes</a></li>
+      <li><a href="estudiantes.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Estudiantes</a></li>
+      <li><a href="staff.html"><i class="fa fa-pencil-square-o"></i> Staff</a></li>
+      <li><a href="jedi.html"><i class="fa fa-users"></i> Profesores/Jedis</a></li>
+      <li class="active"><a href="#"><i class="fa fa-calendar"></i>Actividades</a></li>
+    </ul>
+  </div>
+</section>
+<section id="content">
+  <div id="header">
+    <div class="header-nav">
+      <div class="menu-button">
+        <!--<i class="fa fa-navicon"></i>-->
+      </div>
+      <div class="nav">
+        <ul>
+          <li class="nav-settings">
+            <div class="font-icon"><i class="fa fa-tasks"></i></div>
+          </li>
+          <li class="nav-mail">
+            <div class="font-icon"><i class="fa fa-envelope-o"></i></div>
+          </li>
+          <li class="nav-calendar">
+            <div class="font-icon"><i class="fa fa-calendar"></i></div>
+          </li>
+          <li class="nav-chat">
+            <div class="font-icon"><i class="fa fa-comments-o"></i></div>
+          </li>
+          <li class="nav-profile">
+            <div class="nav-profile-image">
+              <img src="../assets/images/avatar.png" alt="avatar-img" alt="profile image">
+              <div class="nav-profile-name">Amalia<i class="fa fa-caret-down"></i></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content-header">
+      <h1>Calendario</h1>
+      <p>Actividades agendadas.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+    <div class="table-responsive">
+      <table id="calendar-js" class="table table-condensed table-bordered">
+        <thead id="tableHead">
+          <caption id="caption" class="calendar__banner--month">
+            <div class="calendar-nav">
+              <button id="previousMonth"><</button>
+              <h1 id="month" class="mark month"></h1>
+              <button id="nextMonth">></button>
+            </div>
+          </caption>
+
+
+        </thead>
+
+        <tbody id="tableBody">
+
+
+        </tbody>
+      </table>
+    </div>
+         </div>
+       </div>
+  </div>
+
+</section>
+		<!-- Base de datos -->
+		<script src="js/data.js"></script>
+		<!-- Aquí va tus archivos JS -->
+
+    <script type="text/javascript" src="../js/vendors/calendario.js"></script>
+
+  </body>
+</html>
